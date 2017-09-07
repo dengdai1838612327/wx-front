@@ -200,3 +200,18 @@
   color: #666;
   font-size: 14px;
 }
+.check{
+  line-height: 40px;
+  font-size: 12px;
+  vertical-align: middle;
+  padding-left: 25px;
+}
+.check input{
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+.check span a{
+  color: #3d96ff;
+  text-decoration: underline;
+}
