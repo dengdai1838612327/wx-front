@@ -215,3 +215,59 @@
   color: #3d96ff;
   text-decoration: underline;
 }
+.xq-modal {
+  width: 272px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-left: -136px;
+  margin-top: -50px;
+  z-index: 2002;
+  background: #fff
+}
+.xq-modal .modal-msg {
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px 10px;
+}
+.xq-modal p.modal-btn {
+  margin: 0;
+  overflow: hidden
+}
+.xq-modal .modal-btn span {
+  display: block;
+  float: left;
+  width: 49%;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px
+}
+.xq-modal .modal-btn span.yes {
+  border-right: 1px solid #ddd;
+  color: #3b93fd
+}
+.xq-modal .modal-btn span.one {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  color: #3b93fd
+}
+/*错误页*/
+.error-con{
+  margin: 60px auto 20px;
+  text-align: center;
+}
+.error-con img{
+  margin-bottom: 20px;
+}
+.error-con .error-text{
+  font-size: 14px;
+  color: #666;
+}
