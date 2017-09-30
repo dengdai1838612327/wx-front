@@ -98,7 +98,7 @@ li, h1, h2, h3, h4, h5, h6, span, address, i {
   background: url(../images/icon_bg.png) 0 0 no-repeat;
   display: inline-block;
   overflow: hidden;
-  background-size: 25px 90px;
+  background-size: 50px 90px;
 }
 .topfixed {
   left: 0;
